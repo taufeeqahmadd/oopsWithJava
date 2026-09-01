@@ -1,13 +1,13 @@
-////Question 3 — Online Ticket Booking
-////Total Marks: 10
+////Question  — Online Ticket Booking
 ////Scenario: An online ticket booking system allows multiple customers to book seats
 ////simultaneously. Each booking request should execute in a separate thread.
 ////(a) Create a class TicketBooking containing a method bookTicket(String
-////customerName). [2]
-////(b) Create multiple threads representing different customers. [2]
+////customerName).
+////(b) Create multiple threads representing different customers. 
 ////(c) Use synchronization to ensure that two customers cannot book the same seat
-////simultaneously. [4]
-////(d) Display the customer name and booking status. [2]
+////simultaneously. 
+////(d) Display the customer name and booking status. 
+
 class TicketBooking {
     private int availableSeats = 1;
 
